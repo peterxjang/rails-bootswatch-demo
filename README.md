@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A quick demo of how to style a Rails app using [Bootstrap](http://getbootstrap.com/), [Bootswatch](https://bootswatch.com/), and [Bootsnip](http://bootsnipp.com/).
 
-Things you may want to cover:
+![Bootswatch Demo](demo.gif)
 
-* Ruby version
+Bootstrap was installed using the [bootstrap-sass gem](https://github.com/twbs/bootstrap-sass).
+The app was styled using the Bootswatch [Paper](https://bootswatch.com/paper/) theme.
+The index page was styled using this [eCommerce Product Detail](http://bootsnipp.com/snippets/featured/ecommerce-product-detail) snippet.
+The show page was styled using this [Tumblr cards redesign concept](http://bootsnipp.com/snippets/featured/tumblr-cards-redesign-concept) snippet.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# INSTALLATION
+```
+rake db:create
+rake db:migrate
+rake db:seed
+```
